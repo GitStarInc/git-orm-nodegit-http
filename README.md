@@ -6,7 +6,7 @@ API servers.
 ### Usage
 
 ```javascript
-var driver = require('git-orm-gitstar')('http://localhost:3000/');
+var driver = require('git-orm-nodegit-http')('http://localhost:3000/');
 var git  = require('git-orm');
 var Repo = git.Repo(driver);
 
@@ -20,6 +20,6 @@ The constructor also takes a options argument, which can be used to
 not only set the URL, but some desired headers:
 
 ```javascript
-var driver = require('git-orm-gitstar')({url: 'http://localhost:3000/'
-                                        , headers: {'If-None-Match' : ... });
+var driver = require('git-orm-nodegit-http')({ url: 'http://localhost:3000/'
+                                             , headers: {'If-None-Match' : ... });
 ```
