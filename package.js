@@ -1,0 +1,28 @@
+{
+  "name": "git-orm-nodegit-http",
+  "version": "0.0.1",
+  "description": "nodegit-http driver for git-orm",
+  "dependencies": {
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git@github.com:GitStarInc/git-orm-nodegit-http.git"
+  },
+  "bugs" : {
+    "url": "https://github.com/GitStarInc/git-orm-nodegit-http/issues"
+  },
+  "homepage" : "https://github.com/GitStarInc/git-orm-nodegit-http",
+  "keywords": [
+    "nodegit-http",
+    "git-orm"
+  ],
+  "dependencies": {
+    "request"    : "^2.44.0",
+    "util-is"    : "^0.1.0",
+    "validator"  : "^3.19.0",
+    "debug"      : "^1.0.4",
+    "util-is"    : "^0.1.0"
+  },
+  "author": "GitStar Inc.",
+  "license": "MIT"
+}
