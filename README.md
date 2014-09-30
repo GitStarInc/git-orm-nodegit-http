@@ -20,6 +20,6 @@ The constructor also takes a options argument, which can be used to
 not only set the URL, but some desired headers:
 
 ```javascript
-var driver = require('git-orm-nodegit-http')({ url: 'http://localhost:3000/'
+var driver = require('git-orm-nodegit-http')({ url: 'https://api.github.com/'
                                              , headers: {'If-None-Match' : ... });
 ```
